@@ -1,23 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hi, I'm Ashwin, a Software Engineer from Mumbai.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <span>
+          <a
+            className="App-link"
+            href="https://www.linkedin.com/in/glocore"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+          &nbsp;
+          <a
+            className="App-link"
+            href="https://www.github.com/glocore"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+          &nbsp;
+          <a
+            className="App-link"
+            href="https://drive.google.com/file/d/10z_t9qNmINPAOqKzMzpxWUPlgSMH4XCr/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Resume
+          </a>
+        </span>
       </header>
     </div>
   );
